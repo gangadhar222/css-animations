@@ -44,6 +44,7 @@ body {
   position: absolute;
   animation-name: drive;
   animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes drive {
@@ -51,6 +52,6 @@ body {
     transform: translateX(0);
   }
   to {
-    transform: translate(500px);
+    transform: translateX(700px);
   }
 }
