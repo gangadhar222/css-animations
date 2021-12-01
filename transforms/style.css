@@ -1,0 +1,8 @@
+body {
+  background: lightblue;
+  text-align: center;
+}
+
+img {
+  transform: translateX(-200px);
+}
